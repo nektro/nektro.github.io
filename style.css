@@ -1,0 +1,19 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links a {
+    padding: .5em;
+    background-color: #221f1f;
+    border-radius: 25%;
+}
+.links a:nth-child(1) { fill: #3088d4; }
+.links a:nth-child(2) { fill: #1da1f2; }
+.links a:nth-child(3) { fill: #ffffff; }
+.links a:nth-child(4) { fill: #bebcba; }
+.links a:nth-child(5) { fill: #ffffff; }
+.links a:nth-child(6) { fill: #7289da; }
+.links a:nth-child(7) { fill: #009cde; }
+.links a:nth-child(8) { fill: #f96854; }
+.links a:nth-child(9) { fill: #4b367c; }

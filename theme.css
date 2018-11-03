@@ -1,0 +1,18 @@
+body {
+    background-color: #221f1f;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/folk-pattern-black.png");
+    color: white;
+    font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 40em) 1fr;
+}
+main {
+    grid-column: 2 / 3;
+    background: #221f1f;
+    border: .5em solid #333;
+    padding: 1em;
+    margin: 1em;
+}
+h1 {
+    margin: 0;
+}
