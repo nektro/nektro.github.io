@@ -18,15 +18,8 @@
 .links a:nth-child(8) { fill: #f96854; }
 .links a:nth-child(9) { fill: #4b367c; }
 
-a {
-    text-decoration: none;
-    color: goldenrod;
-}
 main section {
     border-top: 1px solid #777;
-}
-main a:hover {
-    text-decoration: underline;
 }
 main section span + span::before {
     content: " - ";

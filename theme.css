@@ -16,3 +16,10 @@ main {
 h1 {
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+a:hover {
+    text-decoration: underline;
+}
