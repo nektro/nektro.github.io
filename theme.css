@@ -4,7 +4,7 @@ body {
     color: white;
     font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
     display: grid;
-    grid-template-columns: 1fr minmax(auto, 40em) 1fr;
+    grid-template-columns: 1fr minmax(auto, 75em) 1fr;
 }
 main {
     grid-column: 2 / 3;
