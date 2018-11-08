@@ -24,3 +24,9 @@ main section {
 main section span + span::before {
     content: " - ";
 }
+main p span::after {
+    content: ", ";
+}
+main p span:last-child::after {
+    content: "";
+}
