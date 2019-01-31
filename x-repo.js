@@ -26,5 +26,8 @@ customElements.define("x-repo", class extends HTMLElement {
             create_element("p", [], [ dcTN(description) ]),
             create_element("p", [], [ dcTN(`Built with: ${uses}`) ]),
         ]));
+        if (this.dataset.noWebsite !== undefined) {
+            this.children[0].children[0].children[2].remove();
+        }
     }
 });
