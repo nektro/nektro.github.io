@@ -20,8 +20,26 @@
 main section {
     border-top: 1px solid #777;
 }
+main section h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main section span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 main section span + span::before {
     content: " - ";
+}
+main section span a {
+    display: inline-block;
+    margin: .2em;
+}
+main section span img {
+    display: inline-block;
+    margin: .2em;
 }
 main p span::after {
     content: ", ";
