@@ -9,14 +9,14 @@
     background-color: #221f1f;
     border-radius: 25%;
 }
-.links a:nth-child(1) { fill: #3088d4; }
-.links a:nth-child(2) { fill: #1da1f2; }
-.links a:nth-child(3) { fill: #ffffff; }
-.links a:nth-child(4) { fill: #f48024; }
-.links a:nth-child(5) { fill: #ffffff; }
-.links a:nth-child(6) { fill: #7289DA; }
-.links a:nth-child(7) { fill: #009cde; }
-.links a:nth-child(8) { fill: #4b367c; }
+.links a.s_mastodon      { fill: #3088d4; }
+.links a.s_twitter       { fill: #1da1f2; }
+.links a.s_github        { fill: #ffffff; }
+.links a.s_stackoverflow { fill: #f48024; }
+.links a.s_devto         { fill: #ffffff; }
+.links a.s_discord       { fill: #7289DA; }
+.links a.s_paypal        { fill: #009cde; }
+.links a.s_twitch        { fill: #4b367c; }
 
 main section {
     border-top: 1px solid #777;
