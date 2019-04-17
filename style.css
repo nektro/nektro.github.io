@@ -1,3 +1,9 @@
+body {
+    display: block;
+    max-width: 70em;
+    margin: auto;
+}
+
 .links {
     display: flex;
     flex-direction: row;
