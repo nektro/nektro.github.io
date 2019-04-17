@@ -31,5 +31,10 @@ customElements.define("x-repo", class extends HTMLElement {
         if (this.dataset.noWebsite !== undefined) {
             this.children[0].children[0].children[2].remove();
         }
+        if (this.dataset.noGithub !== undefined) {
+            this.children[0].children[0].children[4].remove();
+            this.children[0].children[0].children[3].remove();
+            this.children[0].children[0].children[1].remove();
+        }
     }
 });
