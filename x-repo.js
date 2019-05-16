@@ -22,7 +22,6 @@ customElements.define("x-repo", class extends HTMLElement {
                 create_element("span", [], [ dcTN(name ? name : id) ]),
                 create_element("span", [], [ create_element("a", [["href",`https://github.com/nektro/${id}`]], [ dcTN("GitHub") ]) ]),
                 create_element("span", [], [ create_element("a", [["href",(website ? website : `https://nektro.github.io/${id}/`)]], [ dcTN("Website") ]) ]),
-                create_element("span", [], [ create_element("img", [["src",`https://tokei.rs/b1/github/nektro/${id}`]]) ]),
                 create_element("span", [], [ create_element("img", [["src",`https://img.shields.io/github/stars/nektro/${id}.svg?style=flat`]]) ]),
             ]),
             create_element("p", [], [ dcTN(description) ]),
