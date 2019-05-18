@@ -38,17 +38,18 @@ main section span {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: .2em;
 }
 main section span + span::before {
     content: " - ";
 }
 main section span a {
     display: inline-block;
-    margin: .2em;
+    margin-left: .2em;
 }
 main section span img {
     display: inline-block;
-    margin: .2em;
+    margin-left: .2em;
 }
 main p span::after {
     content: ", ";
