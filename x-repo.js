@@ -35,6 +35,9 @@ customElements.define("x-repo", class extends HTMLElement {
                 create_element("span", [], [ create_element("img", [["src",`https://img.shields.io/github/stars/nektro/${id}.svg?style=flat`]]) ]),
             ]));
         }
+        if (this.dataset.sgraph !== undefined) {
+            this.children[0].children[1].appendChild(create_element("span", [], [ create_element("img", [["src",`https://sourcegraph.com/github.com/nektro/${id}/-/badge.svg`]]) ]));
+        }
         this.children[0].appendChild(create_element("p", [], [ dcTN(description) ]));
         this.children[0].appendChild(create_element("p", [], [ dcTN(`Built with: ${uses}`) ]));
     }
