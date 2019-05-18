@@ -24,6 +24,9 @@ body {
 .links a.s_paypal        { fill: #009cde; }
 .links a.s_twitch        { fill: #4b367c; }
 
+main h2 {
+    margin-top: 0;
+}
 main section {
     border-top: 1px solid #777;
 }
